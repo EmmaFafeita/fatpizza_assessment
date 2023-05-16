@@ -1,0 +1,100 @@
+
+
+
+
+
+.links {
+    background-color: #1e1a1d; 
+    padding: 50px 10px; 
+    color: #fffff3;
+    text-align: center; 
+    font-size: 20px; 
+    font-weight: bold;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    transition: 0.2s; 
+  }
+
+
+body {
+    background-color:#1e1a1d;
+    background-repeat: repeat;
+}
+
+a:link {
+    color: #fffff3;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:#fffff3;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ef2917;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #ef2917;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .logo {
+    padding: 0px 0;
+    text-align: center;
+    padding-bottom: 0;
+
+    }
+
+  .logo img {
+    max-width: auto;
+    width:100%;
+
+
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color:#fffff3;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 3px solid #ef2917;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+    font-size: 50px;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+    font-size: 50px;
+  }
+
+  #reservation {
+    font-size: 20px;
+    color:#fffff3;
+    text-align: center;
+  }
+
+p {
+    color:#fffff3;
+}
+
+.name{
+    color:#ef2917;
+}
