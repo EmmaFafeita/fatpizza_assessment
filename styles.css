@@ -55,8 +55,6 @@ a:link {
   .logo img {
     max-width: auto;
     width:100%;
-
-
 }
 
 .separator {
@@ -96,4 +94,20 @@ p {
 
 .name{
     color:#ef2917;
+}
+
+.pizza {
+  padding: 0;
+  padding-bottom: 0;
+  padding-top: -10px;
+
+
+  }
+
+.pizza img {
+  max-width: auto;
+  width:30%;
+  float:right;
+  height:auto;
+  position:absolute; right:80px; top:650px; 
 }
